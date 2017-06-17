@@ -1,0 +1,58 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\DuDu.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\DuDu.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\DuDu.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\DuDu.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\App.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\DuDu_MarkupCompile.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\DuDu_MarkupCompile.lref
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\DuDu.g.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\DuDu.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\DuDu.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\DuDu.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\DuDu.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\DuDu\DuDu\obj\Debug\App.baml
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\DuDu.exe.config
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\DuDu.exe
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\DuDu.pdb
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\DuDu.exe
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\DuDu.pdb
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\DuDu.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\App.g.cs
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\DuDu_MarkupCompile.cache
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\DuDu_MarkupCompile.lref
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\App.baml
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\DuDu.g.resources
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\DuDu.Properties.Resources.resources
+C:\Users\user\Documents\SourceCode\DuDu\DuDu\obj\Debug\DuDu.csproj.GenerateResource.Cache

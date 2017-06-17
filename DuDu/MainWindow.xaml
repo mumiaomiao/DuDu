@@ -1,0 +1,176 @@
+﻿<Window x:Class="DuDu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DuDu"
+        mc:Ignorable="d"
+        Title="DuDu" 
+        Height="600" Width="900" WindowStartupLocation="CenterScreen" Icon="DuDu.png">
+    <Window.DataContext>
+        <Binding Path="Main" Source="{StaticResource Locator}"></Binding>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="110*"/>
+            <ColumnDefinition Width="337*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="141*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" x:Name="UserInfo" Background="LightGoldenrodYellow" Grid.ColumnSpan="2" Margin="0,0,-0.4,59.8" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="29*"/>
+                <RowDefinition Height="32*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="31*"/>
+                <ColumnDefinition Width="267*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="{Binding HeadPortraitForUser}" Grid.ColumnSpan="2" Margin="0,0,800.6,-0.2" Grid.RowSpan="2"></Image>
+            <TextBox Grid.Row="0" Grid.Column="1" Text="balabalabala" Margin="5,2" VerticalAlignment="Center" Background="{x:Null}"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1" Text="balabalabala" Margin="5,2" VerticalAlignment="Center" Background="{x:Null}"></TextBox>
+        </Grid>
+        <Menu Grid.Row="1" x:Name="gridMenu" Background="LightGoldenrodYellow" Grid.ColumnSpan="2" Margin="0,1,-0.4,448.4" Grid.RowSpan="2">
+            <Button Margin="7,7">
+                <Image Source="Resources/null.png" />
+            </Button>
+            <ComboBox Text="123344" Width="68">
+                <ListBoxItem Content="123"/>
+                <ListBoxItem Content="123"/>
+                <ListBoxItem Content="123"/>
+                <ListBoxItem Content="123"/>
+                <ListBoxItem Content="123"/>
+            </ComboBox>
+            <MenuItem>
+
+            </MenuItem>
+            <Button Margin="7,7">
+                <Image Source="Resources/null.png" />
+            </Button>
+            <Button Margin="7,7">
+                <Image Source="Resources/null.png" />
+            </Button>
+            <Button Margin="7,7">
+                <Image Source="Resources/null.png" />
+            </Button>
+            <Button Margin="7,7">
+                <Image Source="Resources/null.png" />
+            </Button>
+        </Menu>
+        <Grid Grid.Row="2" x:Name="gridMain" Grid.ColumnSpan="2" Margin="0,1.2,-0.4,-0.6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="125*"/>
+                <ColumnDefinition Width="48*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" x:Name="gridChat">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200*"/>
+                    <RowDefinition Height="100*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" x:Name="txtHistory" Margin="4,2" Background="LightGreen" Visibility="Hidden"/>
+                <GridSplitter Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="5"></GridSplitter>
+                <Grid Grid.Row="1" x:Name="gridTool">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="74*"/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <ToolBar Grid.Row="0" x:Name="toolBar" Background="LightBlue" Margin="0,0,-0.4,0.2">
+                        <Button Margin="2">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="2">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="2">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="2">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="2">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                    </ToolBar>
+                    <TextBox Grid.Row="1" x:Name="txtInput" Margin="4,1,4,1" Background="LightYellow" ></TextBox>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="240*"/>
+                            <ColumnDefinition Width="60*"/>
+                            <ColumnDefinition Width="60*"/>
+                            <ColumnDefinition Width="60*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox Grid.Column="0" Text="balabalabala" Margin="1,2" VerticalAlignment="Center"/>
+                        <Button Grid.Column="1" Content="Clear" Margin="10,4" Click="Button_Click_1"/>
+                        <Button Grid.Column="2" Content="Send" Margin="10,4" Click="Button_Click"/>
+                        <Button Grid.Column="3" Content="Partner" Margin="10,4" Click="Button_Click_2"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1" x:Name="gridInfo" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="151*"/>
+                    <RowDefinition Height="131*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0" x:Name="gridFriendInfo" Background="LightCyan">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Image Source="{Binding QQShowForFriend}" Margin="0,0,0,-0.2" Grid.RowSpan="2"></Image>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" >
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                    </StackPanel>
+                </Grid>
+                <GridSplitter Grid.Row="0" Height="5" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
+                <Grid Grid.Row="1" x:Name="gridUserInfo" Background="LightGray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Image Source="{Binding QQShowForUser}" Margin="0,0,0,-0.4" Grid.RowSpan="2"></Image>
+                    <StackPanel x:Name="tool_user" Grid.Row="1" Orientation="Horizontal" >
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                        <Button Margin="7,7">
+                            <Image Source="Resources/null.png" />
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
